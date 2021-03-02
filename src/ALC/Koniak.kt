@@ -36,4 +36,7 @@ class Koniak(private var name: String) {
     fun getvoid():String{
         return name
     }
+    fun getgit(): Int {
+        return alc
+    }
 }
