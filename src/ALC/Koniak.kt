@@ -33,10 +33,9 @@ class Koniak(private var name: String) {
     constructor(name: String, _alc: Int, _vol: Double, _exc: Int, _clas: String, _orig: String, _tip: String) : this(name, _alc, _vol, _exc, _clas, _orig) {
         tip = _tip
     }
-    fun getvoid():String{
+
+    fun getvoid(): String {
         return name
     }
-    fun getgit(): Int {
-        return alc
-    }
+
 }

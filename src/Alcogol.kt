@@ -1,0 +1,3 @@
+interface Alcogol {
+    fun print()
+}

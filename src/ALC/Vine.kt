@@ -27,7 +27,7 @@ class Vine(private var name: String) {
         return "Название вина $name тип вина $view"
     }
 
-    fun getprint(): String {
+    fun Alcogol(): String {
         return "${getVin()} алкоголь= ${getAlc()}"
     }
 }

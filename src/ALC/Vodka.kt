@@ -1,6 +1,8 @@
 package ALC
 
-class Vodka(var name: String) {
+import Alcogol
+
+class Vodka (var name: String):Alcogol {
     var alc: Int = 40
     var vol: Double = 0.0
     var clas: String = "Ниже дна"
@@ -27,4 +29,9 @@ class Vodka(var name: String) {
     constructor(name: String, _alc: Int, _vol: Double, _clas: String, _orig: String, _tip: String) : this(name, _alc, _vol, _clas, _orig) {
         tip = _tip
     }
+
+    override fun print() {
+        println ("$name,$alc,$vol,$clas,$orig,$tip")
+    }
+
 }
